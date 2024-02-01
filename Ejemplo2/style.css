@@ -1,0 +1,33 @@
+
+header{
+    height : 50%;
+    border: solid black 10px 
+}
+footer{
+    height : 50%;
+    border: solid black 10px ;
+    background:gray;
+  
+}
+.main{
+    margin: 4%;
+    border: solid black 4px
+}
+.general{
+    width:100%;
+padding:1%;
+}
+.prod{
+    width:150px;
+    border: solid black 4px;
+    padding: 1%;
+    text-align: center;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    display: inline-block;
+
+    
+}
+img{
+    width: 80%;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operaciones Matemáticas</title>
+    <script type = "text/javascript" src = "Script.js"></script>
+    <link rel="stylesheet" type = "text/css" href="style.css">
+</head>
+<body onload ="MostrarProd()">
+    <header>
+        <a href="#">Home</a>
+        <a href="#">Productos</a>
+    </header>
+<section class = "main">
+    <div id ="prod" class ="general">
+        <div  class="prod">
+
+        </div>
+    </div>
+</section>
+
+<footer> 
+
+</footer>
+
+    <div class = "uno">
+    <div class="dos">
+        <label>Introduce un número (numerador):</label>
+        <input type="text" id="num1" value="9">
+        <br/>
+        <label>Introduce otro número (denominador):</label>
+        <input type="text" id="num2" value="100">
+    </div>
+        <button onclick="Suma()">Sumar</button>
+        <button onclick="multiplicar()">Multiplicar</button>
+        <button onclick="restar()">Restar</button>
+        <button onclick="dividir()">Dividir</button>
+    </div>
+    <div id="result"></div>
+</body>
+</html>
